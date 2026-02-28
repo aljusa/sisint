@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  ul {
+    @apply list-disc list-inside
+           space-y-2
+           text-gray-800;
+  }
+
+  ul > li {
+     @apply leading-relaxed pl-5;
+  }
+}
